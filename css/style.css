@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../pictures/iamgem de fundo.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #354259AA;
+    border-bottom:3px solid #ECE5C7DD;
+    height: 80px;
+    padding: 10px;
+    position: sticky;
+}
+
+#imagemlogo{
+    float: left;
+    background-color: #354259;
+    height: 150px;
+    padding: 10px;
+    border: 5px solid #ECE5C7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #354259;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.itensmenu{
+    float: right;
+    padding: 10px;
+    margin: 25px;
+    background-color: #354259;
+    border:3px solid #ECE5C7;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #354259;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#sobre{
+    box-sizing: border-box;
+    width: 845px;
+    height: 500px;
+    background-color: #354259DD;
+    margin: auto;
+    margin-top: 100px;
+    border:5px solid #ECE5C7BB;
+    border-radius: 20px; 
+}
+
+#fotopadaria{
+    float: right;
+    box-sizing: border-box;
+    width: 400px;
+    margin-top: 85px;
+    border: 5px solid #ECE5C7BB;
+    border-right: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#textosobre{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+#corposobre{
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+
+#produtos{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 90%;
+    height: 550px;
+    background-color: #354259DD;
+    margin: auto;
+    margin-top: 100px;
+    border:5px solid #ECE5C7BB;
+    border-radius: 20px; 
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.imgprodutos{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#produtomassa{
+    box-sizing: border-box;
+    background-color: #ECE5C7AA;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 33.33%;
+    height: 100%;
+    padding: 10px;
+}
+
+#produtopao{
+    box-sizing: border-box;
+    background-color: #CDC2AEAA;
+    width: 33.33%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+#produtosupermercado{
+    box-sizing: border-box;
+    background-color: #ECE5C7AA;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    width: 33.33%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 80%;
+    height: 420px;
+    background-color: #354259DD;
+    margin: auto;
+    margin-top: 100px;
+    border:5px solid #ECE5C7BB;
+    border-radius: 20px; 
+    border:5px solid #ECE5C7BB;
+    border-radius: 20px; 
+}
+
+#imgfooter{
+    float: left;
+    box-sizing: border-box;
+    width: 300px;
+    margin-top: 20px;
+    border: 5px solid #ECE5C7BB;
+    border-left: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#corpofooter{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+#contato{
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;
+    background-color: #354259;
+    border: 5px solid #ECE5C7BB;
+    border-right: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+}
+
+#localizacao{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    background-color: #354259;
+    border: 5px solid #ECE5C7BB;
+    border-right: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+#horario{
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    background-color: #354259;
+    border: 5px solid #ECE5C7BB;
+    border-right: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+#redes{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;
+    background-color: #354259;
+    border: 5px solid #ECE5C7BB;
+    border-right: 0;
+    border-bottom: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+    bottom: 0px;
+    right: 0px;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.imgredes{
+    width: 50px;
+    margin-left: 50px;
+}
+
